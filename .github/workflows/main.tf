@@ -1,5 +1,5 @@
 resource "aws_shai_s3_bucket" "example" {
-  bucket = "ENTER YOUR BUCKET NAME HERE"
+  bucket = "s3-terraform-bucket"
   tags = {
     Environment = "Dev"
   }
